@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="manifest" href="manifest.json"/>
+    <link rel="apple-touch-icon" href="/images/">
+    <link rel="icon" href="/images/" sizes="256x256">
+    <meta name="theme-color" content="while"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> PWA - Camera</title>
+  </head>
+  <body>
+    <main id="camera">
+      <canvas id="camera--sensor"></canvas>
+      <video id="camera--view" autoplay playsinline></video>
+      <img src="//:" alt="" id="camera--output">
+      <button id="camera--trigger"> Tirar Foto</button>  
+     </main>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
